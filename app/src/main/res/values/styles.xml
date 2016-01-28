@@ -1,0 +1,33 @@
+<resources>
+
+    <color name="background">#f0f6ff</color>
+    <color name="navigation_status">#404a55</color>
+    <color name="actionbar">#8193aa</color>
+    <color name="helping1">#c1ddff</color>
+    <color name="helping2">#fffded</color>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo">
+        <!-- Customize your theme here. -->
+        <item name="android:colorPrimaryDark">@color/navigation_status</item>
+        <item name="android:textColorPrimary">@color/helping2</item>
+        <item name="android:navigationBarColor">@color/navigation_status</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:colorPrimary">@color/actionbar</item>
+        <item name="android:textColor">@color/navigation_status</item>
+        <item name="android:actionMenuTextColor">@color/helping2</item>
+    </style>
+
+    <style name="AppTheme2" parent="android:Theme.Material">
+        <!-- Customize your theme here. -->
+        <item name="android:colorPrimaryDark">@color/navigation_status</item>
+        <item name="android:textColorPrimary">@color/helping2</item>
+        <item name="android:navigationBarColor">@color/navigation_status</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:colorPrimary">@color/actionbar</item>
+        <item name="android:textColor">@color/helping2</item>
+
+    </style>
+
+
+</resources>

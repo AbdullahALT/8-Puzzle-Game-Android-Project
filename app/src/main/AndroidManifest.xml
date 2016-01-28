@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.abo_tam.game_8puzzel" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="8-Puzzle"
+        android:theme="@style/AppTheme2"
+        android:logo="@mipmap/ic_launcher">
+        <activity
+            android:name=".Puzzle"
+            android:label="8-Puzzle"
+            android:screenOrientation="sensorPortrait"
+            android:configChanges="orientation|keyboardHidden|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

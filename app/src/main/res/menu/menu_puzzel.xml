@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".Puzzel" >
+
+
+    <item android:id="@+id/notime_settings"
+        android:title="@string/notime"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        />
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_refresh"
+        android:orderInCategory="50"
+        android:showAsAction="ifRoom"
+        android:icon="@mipmap/refresh"
+        />
+
+    <item android:id="@+id/easy_settings"
+        android:title="@string/easy"
+        android:orderInCategory="200"
+        android:showAsAction="never"
+
+        />
+
+    <item android:id="@+id/medium_settings"
+        android:title="@string/medium"
+        android:orderInCategory="300"
+        android:showAsAction="never"
+        />
+
+    <item android:id="@+id/hard_settings"
+    android:title="@string/hard"
+    android:orderInCategory="400"
+    android:showAsAction="never"
+    />
+
+
+
+
+
+
+
+</menu>

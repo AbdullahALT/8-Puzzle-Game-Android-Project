@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Game_8Puzzel</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_refresh">refresh</string>
+    <string name="rights">Developed By Abdullah Al-Tamimi</string>
+    <string name="easy">Easy (10 min)</string>
+    <string name="medium">Normal (5 min)</string>
+    <string name="hard">Hard (2 min)</string>
+    <string name="notime">No Time</string>
+</resources>
